@@ -22,3 +22,8 @@ dependencies = [
     "transformers>=4.57.3",
     "gensim>=4",
 ]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
